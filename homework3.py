@@ -9,3 +9,8 @@ print(new_age)
 
 is_student = True
 print(is_student)
+
+print("Name:", name)
+print("Age:", age)
+print("New Age:", new_age)
+print("Is Student:", is_student)
