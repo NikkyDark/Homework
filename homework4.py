@@ -1,5 +1,5 @@
 my_string = input("как тебя зовут? ")
-print(my_string)
+print("Привет! ", my_string)
 #  тут не много не понял, про вывести количество символов.
 
 my_string = input("как тебя зовут? ")
@@ -9,12 +9,11 @@ my_string = input("как тебя зовут? ")
 print("Привет! ", my_string.lower())
 
 my_string = input("как тебя зовут? ")
-print("Привет! ", my_string.replace(' ', '#'))
+print("Привет! ", my_string.replace(' ', ''))
 
 my_string = input("как тебя зовут? ")
 print("Привет! ", my_string[0])
 
 
 my_string = input("как тебя зовут? ")
-print("Привет! ", my_string)
-print(my_string[-1])
+print("Привет!", my_string[-1])
