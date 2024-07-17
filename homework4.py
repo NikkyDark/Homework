@@ -1,6 +1,5 @@
 my_string = input("как тебя зовут? ")
-print("Привет! ", my_string)
-#  тут не много не понял, про вывести количество символов.
+print(len(my_string))
 
 my_string = input("как тебя зовут? ")
 print("Привет! ", my_string.upper())
