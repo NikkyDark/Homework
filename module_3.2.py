@@ -1,7 +1,7 @@
 def check_email(email):
     if (
             "@" in email and
-            email.endswith(("com", "ru", "net"))):
+            email.endswith((".com", ".ru", ".net"))):
         result = True
     else:
         result = False
