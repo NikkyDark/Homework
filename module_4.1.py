@@ -1,10 +1,6 @@
 import fake_math as fm
 import true_math as tm
 
-print(fm)
-print(tm)
-
-
 result1 = fm.divide(69, 3)
 result2 = fm.divide(3, 0)
 result3 = tm.divide(49, 7)
