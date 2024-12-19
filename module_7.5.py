@@ -1,5 +1,6 @@
 import os
 import time
+
 directory = '/Users/nikitabo/PycharmProjects/homework/module 7'
 
 for root, dirs, files in os.walk(directory):
