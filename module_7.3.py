@@ -17,6 +17,7 @@ class WordsFinder:
         return all_words
 
     def find(self, word):
+        word = word.lower()
         result = {}
         for name, words in self.get_all_words().items():
             if word in words:
@@ -26,7 +27,8 @@ class WordsFinder:
     def count(self, word):
         result = {}
         for file_name, words in self.get_all_words().items():
-            result[file_name] = words.count(word)
+            words_count = words.count(word.lower())
+            result[file_name] = words_count
 
         return result
 
