@@ -14,7 +14,7 @@ def personal_sum(numbers):
 
 def calculate_average(numbers):
     try:
-        if not isinstance(numbers, (list, tuple)):
+        if not isinstance(numbers, (str, list, tuple)):
             print('В numbers записан некорректный тип данных')
             return None
 
@@ -23,8 +23,9 @@ def calculate_average(numbers):
         count = len(numbers) - incorrect_data
 
         if count == 0:
+            return 0
 
-            return total_sum / count
+        return total_sum / count
 
     except ZeroDivisionError:
         return 0
